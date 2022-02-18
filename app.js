@@ -79,6 +79,12 @@ app.get("/:urlName",function(req,res){
     }
 });
 
+// app.post("/login",function(req,res){
+//     let userName = req.body.loginUsername;
+//     let password = req.body.loginPassword;
+//     res.redirect("/"+userName+password);
+// });
+
 app.post("/",function(req,res){
     let itemName = req.body.newItem;
     let listname = req.body.Addbutton;

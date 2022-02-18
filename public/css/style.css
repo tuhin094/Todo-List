@@ -95,7 +95,11 @@ body{
     border-radius: 10px;
     border: 1;
     border-color: #2980B9;
-    padding-left: 10px;
+}
+
+.inputItemContainer {
+    display: flex;
+    align-items: center;
 }
 
 .addbutton{
@@ -146,4 +150,7 @@ input[type="checkbox"] {
     sans-serif;
     color: white;
 }
-  
+
+@media only screen and (max-width: 600px) {
+}
+
