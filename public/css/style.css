@@ -1,0 +1,149 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    background-color: white; /*6DD5FA*/
+    text-align: center;
+    /* background-image: -webkit-linear-gradient(65deg,#2980B9 50%,#ffff 50%); */
+    /* min-height: 1000px; */
+}
+
+.loginBox{
+    width: 350px;
+    height: 280px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family:'Segoe UI',
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+}
+
+.loginText{
+    text-align: justify;
+    margin-left: 25px;
+}
+
+.loginButton{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: #2980B9;
+    border: 0;
+    margin-top: 35px;
+    font-family:'Segoe UI',
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+}
+
+.loginItem{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1;
+    border-color: #2980B9;
+    padding-left: 10px;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2980B9;
+    margin: 50px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+#itemsContainer{
+    padding: 10px;
+}
+
+.box{
+    align-items: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #b0e9fd;
+    border-bottom: 1px solid skyblue;
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.addItem{
+    text-align: center;
+}
+
+.inputItem{
+    width: 700px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1;
+    border-color: #2980B9;
+    padding-left: 10px;
+}
+
+.addbutton{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 0;
+    /* font-size: 15px; */
+    color: white;
+    background-color: #2980B9;
+}
+
+.backShadow{
+    box-shadow: 0px 0px 25px rgb(114, 205, 235);
+}
+
+input[type="checkbox"] {
+    margin: 20px;
+}
+
+.footer{
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* margin-top: 100px; */
+    left: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    height: 60px;
+    background-color: #2980B9;
+    
+}
+
+.upper_footer{
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+.footer p{
+    font-family:'Segoe UI',
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+    color: white;
+}
+  

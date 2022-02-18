@@ -1,0 +1,16 @@
+<%- include("header"); -%>
+
+    <div class="heading backShadow">
+        <h1> Welcome to Todo List Web application </h1>
+    </div>
+
+    <form action="/login" method="post" class="loginBox backShadow">
+        <h3 class="loginText">Username</h3>
+        <input type="text" name="loginUsername" class="loginItem" placeholder="Enter username / email address">
+        <h3 class="loginText">Password</h3>
+        <input type="text" name="loginPassword" class="loginItem" placeholder="Enter you Password">
+        <button type="submit" class="loginButton" name="login">Login</button>
+
+    </form>
+
+<%- include("footer"); -%>

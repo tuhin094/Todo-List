@@ -1,0 +1,24 @@
+<%- include("header"); -%>
+    <div class="heading backShadow">
+        <h1><%= currday %> </h1>
+    </div>
+
+    <div class="box backShadow" id="itemsContainer">
+        <% listItem.forEach(function(element){ %>
+            <form action="/delete" method="post">
+                <div class="item">
+                    <input type="checkbox" name="checkBox" value= <%= element.id %>  onChange="this.form.submit()">
+                    <input type="hidden" name="Listname" value= <%= currday %>>
+                    <p><%= element.name %></p>
+                </div>
+            </form>
+        <% }) %>
+
+        <form action="/" method="post">
+            <div class="">
+                <input type="text" name="newItem" class="inputItem" placeholder="Enter the data" autocomplete="off">
+                <button type="submit" class="addbutton backShadow" name="Addbutton" value= <%= currday %>>+</button>
+            </div>
+        </form>
+    </div>
+<%- include("footer"); -%>
